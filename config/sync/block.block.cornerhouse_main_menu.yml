@@ -1,0 +1,27 @@
+uuid: 8e54cbfd-27d1-4950-81f6-1db2ec2cd7fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - cornerhouse
+_core:
+  default_config_hash: yiK7FjV2aPVIvVPntVwFwWOXB-4rbXTIMKD88-vv64M
+id: cornerhouse_main_menu
+theme: cornerhouse
+region: navbar_left
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

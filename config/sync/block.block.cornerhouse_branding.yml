@@ -1,0 +1,25 @@
+uuid: 969bb920-3dd8-47d0-bf8a-076f5a5644e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cornerhouse
+_core:
+  default_config_hash: OvpAmymWPvoYc7MUucWYSjfWPFE2dcAzdL_ke7pj5ME
+id: cornerhouse_branding
+theme: cornerhouse
+region: navbar_branding
+weight: -1
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

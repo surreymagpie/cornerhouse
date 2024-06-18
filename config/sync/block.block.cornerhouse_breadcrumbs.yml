@@ -1,0 +1,22 @@
+uuid: c8b3527b-95e3-4eee-820c-1415fe146b32
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cornerhouse
+_core:
+  default_config_hash: gQdPqBH5ZS2_QDBqKOi6-A-qwCLCVg5cka6vRjPn2aE
+id: cornerhouse_breadcrumbs
+theme: cornerhouse
+region: header
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

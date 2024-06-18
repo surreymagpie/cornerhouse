@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "648fe26902ee9a8ccca3508d21fcf4fb",
+    "content-hash": "73ad3e0843137345db3a261b0ff65bff",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1629,6 +1629,66 @@
                     "url": "https://paypal.me/saschaeggi"
                 }
             ]
+        },
+        {
+            "name": "drupal/radix",
+            "version": "dev-6.0.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/radix.git",
+                "reference": "99dce628e9d47aa2971ccc5e1c3a5c950a04f680"
+            },
+            "require": {
+                "drupal/core": "^10.1"
+            },
+            "require-dev": {
+                "drush/drush": "^12"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-6.0.x": "6.0.x-dev"
+                },
+                "drupal": {
+                    "version": "6.0.0-beta19+6-dev",
+                    "datestamp": "1717830632",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^12"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Sohail Lajevardi",
+                    "homepage": "https://www.drupal.org/user/1331334",
+                    "email": "doxigo@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Hosisam",
+                    "homepage": "https://www.drupal.org/user/3449435"
+                },
+                {
+                    "name": "shadcn",
+                    "homepage": "https://www.drupal.org/user/571032"
+                }
+            ],
+            "description": "Radix is a Bootstrap 5 component-based base theme for Drupal. It has Bootstrap, Sass, BrowserSync and a lot more goodies built-in.",
+            "homepage": "https://www.drupal.org/project/radix",
+            "support": {
+                "source": "https://git.drupalcode.org/project/radix",
+                "issues": "https://www.drupal.org/project/issues/radix"
+            }
         },
         {
             "name": "drush/drush",
@@ -6269,7 +6329,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "drupal/gin": 5,
-        "drupal/gin_toolbar": 5
+        "drupal/gin_toolbar": 5,
+        "drupal/radix": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

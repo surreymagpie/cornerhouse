@@ -40,7 +40,9 @@ module:
   path: 0
   path_alias: 0
   responsive_image: 0
+  sdc: 0
   search: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0
@@ -50,9 +52,10 @@ module:
   user: 0
   views_ui: 0
   views: 10
-  standard: 1000
+  minimal: 1000
 theme:
-  olivero: 0
   claro: 0
   gin: 0
-profile: standard
+  radix: 0
+  cornerhouse: 0
+profile: minimal

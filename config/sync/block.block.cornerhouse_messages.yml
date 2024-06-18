@@ -1,0 +1,22 @@
+uuid: a66dda7b-6019-482b-923a-a8c6c41d1e5c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cornerhouse
+_core:
+  default_config_hash: bkBBZ2zpTjKQhyucPs7oPAJW5VksRFfVlr00izQJ2yw
+id: cornerhouse_messages
+theme: cornerhouse
+region: header
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

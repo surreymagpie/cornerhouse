@@ -1,0 +1,20 @@
+uuid: 9070d19e-180e-48f4-baa1-1a4e5547ca8e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cornerhouse
+_core:
+  default_config_hash: 3m38z6mBNwzAe04dyTyo6WPwY0dkO8H4fbempH7PU9U
+id: cornerhouse_local_actions
+theme: cornerhouse
+region: header
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

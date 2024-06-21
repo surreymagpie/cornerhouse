@@ -19,7 +19,8 @@ web/sites/*/services*.yml
 
 # Ignore paths that contain user-generated content.
 web/sites/*/files
-private/
+private/*
+!private/.htaccess
 
 # Ignore editor files
 .vscode

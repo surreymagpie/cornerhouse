@@ -1,0 +1,16 @@
+uuid: 36af90d9-2612-4a5d-a4f7-56cfc2975a08
+langcode: en-gb
+status: false
+dependencies: {  }
+id: dev
+label: Dev
+description: 'Configuration for development environment only'
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/dev
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }

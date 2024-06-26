@@ -8,6 +8,7 @@ dependencies:
     - taxonomy.vocabulary.tags
   module:
     - contextual
+    - eu_cookie_compliance
     - file
     - node
     - path
@@ -36,6 +37,7 @@ permissions:
   - 'delete own files'
   - 'delete own page content'
   - 'delete page revisions'
+  - 'display eu cookie compliance popup'
   - 'edit own article content'
   - 'edit own page content'
   - 'edit terms in tags'

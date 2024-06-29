@@ -1,0 +1,16 @@
+name: staff_roles_taxonomy
+description: Adds staff roles vocabulary
+type: 'Taxonomy'
+
+install:
+  - taxonomy
+config:
+  import:
+    taxonomy:
+      - vocabulary.staff_roles
+  actions:
+    user.role.content_editor:
+      grantPermissions:
+        - 'create terms in staff_roles'
+        - 'edit terms in staff_roles'
+        - 'delete terms in staff_roles'

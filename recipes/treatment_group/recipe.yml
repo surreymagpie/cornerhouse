@@ -1,0 +1,16 @@
+name: treatment_group_taxonomy
+description: Adds treatment group vocabulary
+type: 'Taxonomy'
+
+install:
+  - taxonomy
+config:
+  import:
+    taxonomy:
+      - vocabulary.treatment_group
+  actions:
+    user.role.content_editor:
+      grantPermissions:
+        - 'create terms in treatment_group'
+        - 'edit terms in treatment_group'
+        - 'delete terms in treatment_group'

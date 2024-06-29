@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 4adc18a5-33a2-48ed-9d5d-534317c5b943
+  bundle: treatment_group
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Surgical
+  weight:
+    -
+      value: 5
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

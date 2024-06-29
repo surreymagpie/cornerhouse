@@ -1,0 +1,31 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 324710c0-d798-4451-8eef-66c0f355bd9d
+  bundle: treatment_group
+  default_langcode: en-gb
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Periodontal
+  description:
+    -
+      value: "<h2>What is gum disease?</h2><p>Gum disease is the swelling, soreness or infection of the tissues supporting the teeth. There are two main types of gum disease: 'gingivitis' and 'periodontal disease'.</p><p>Gingivitis means inflammation of the gums. This is when the gums around the teeth become very red and swollen. Often the swollen gums bleed when you brush them.</p><p>Long-standing gingivitis can turn into periodontal disease. There are a number of types of periodontal disease and they all affect the tissues supporting the teeth. As the disease gets worse the bone fixing the teeth to the jaw is lost, making the teeth loose. If this is not treated, the teeth may eventually fall out. In fact, more teeth are lost through periodontal disease than through tooth decay.</p><h3>Am I likely to suffer from gum disease?</h3><p>Probably. Most people have some form of gum disease, and it is the major cause of tooth loss in adults. However, the disease develops very slowly in most people, and it can be slowed down to a rate that should allow you to keep most of your teeth for life.</p><p>All gum disease is caused by plaque. Plaque is a film of bacteria which forms on the surface of the teeth every day. Many of the bacteria in plaque are harmless, but there are some that have been shown to be the main cause of gum disease. To prevent and treat gum disease, you need to make sure you remove all the plaque from your teeth every day. You can do this by brushing your teeth, and by cleaning in between them with interdental brushes or dental floss.</p><h3>How will smoking affect my gums and teeth?</h3><p>People who smoke are more likely to have gum disease. Smoking may change the type of bacteria in dental plaque, increasing the number of bacteria that are more harmful. It also reduces the blood flow in the gums and supporting tissues of the tooth and makes them more likely to become inflamed. Smokers' gum disease will get worse more quickly than in people who do not smoke. Because of the reduced blood flow smokers may not get the warning symptoms of bleeding gums as much as non-smokers. Gum disease is still the most common cause of tooth loss in adults. <strong>How do I know if I have gum disease?</strong> The first sign may be blood on your toothbrush when you clean your teeth. Your gums may also bleed when you are eating, leaving a bad taste in your mouth. Your breath may also become unpleasant. <strong>What should I do if I think I have gum disease?</strong> The first thing to do is visit your dentist for a thorough check-up of your teeth and gums. The dentist can measure the 'cuff' of gum around each tooth to see if there is any sign that periodontal disease has started. X-rays may also be needed to see the amount of bone that has been lost. This assessment is very important, so the correct treatment can be prescribed for you.</p><h3>What happens if gum disease is not treated?</h3><p>Unfortunately, gum disease usually develops painlessly so you do not notice the damage it is doing. However, the bacteria are sometimes more active and this is what makes your gums sore. This can lead to gum abscesses, and pus may ooze from around the teeth. Over a number of years, the bone supporting the teeth can be lost. If the disease is left untreated for a long time, treatment can become more difficult.</p><h3>What treatments are needed?</h3><p>Your dentist will usually clean your teeth thoroughly to remove the scale. You'll also be shown how to remove plaque successfully yourself, cleaning all the surfaces of your teeth thoroughly and effectively. This may take a number of sessions with the dentist or hygienist. <strong>What else may be needed?</strong> Once your teeth are clean, your dentist may decide to carry out further cleaning of the roots of the teeth, to make sure that the last pockets of bacteria are removed. This is known as root planing. You may need the treatment area to be numbed before anything is done. Afterwards, you may feel some discomfort for up to 48 hours.</p><h3>Once I have had periodontal disease, can I get it again?</h3><p>Periodontal disease is never cured, but it can be controlled as long as you keep up the home care you have been taught. Any further loss of bone will be very slow and it may stop altogether. However, you must make sure you remove plaque every day, and go for regular check-ups by the dentist and hygienist.</p>"
+      format: basic_html
+  weight:
+    -
+      value: 1
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en-gb
+      pathauto: 0

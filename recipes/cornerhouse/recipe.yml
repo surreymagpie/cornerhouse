@@ -1,0 +1,6 @@
+name: cornerhouse
+type: 'Site'
+description: Main recipe
+recipes:
+  - staff_roles
+  - treatment_group

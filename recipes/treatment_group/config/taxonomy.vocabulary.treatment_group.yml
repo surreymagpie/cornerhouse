@@ -1,0 +1,8 @@
+langcode: en-gb
+status: true
+dependencies: {  }
+name: Treatment Group
+vid: treatment_group
+description: 'Use treatment groups to classify types of treatment.'
+weight: 0
+new_revision: false

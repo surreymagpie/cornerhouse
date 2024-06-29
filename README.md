@@ -23,8 +23,8 @@ source .aliases.sh
 composer install
 
 # First-time install of drupal with minimal profile
-drush site:install minimal --locale=en-gb \
-  --db-url=mysql://$MYSQL_USER:$MYSQL_PASSWORD@db:3306/$MYSQL_DATABASE \
-  --account-name="surreymagpie" --account-pass="secure_password" \
-  --site-name="Cornerhouse Dental Practice" --yes
+drush site:install --existing-config --account-name="surreymagpie" --account-pass="secure_password" --yes
+
+# Install default content
+cd web; php core/scripts/drupal recipe ../recipes/cornerhouse
 ```

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 93cef440-6463-4add-a943-0d351562d18f
+  bundle: treatment_group
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Cosmetic
+  weight:
+    -
+      value: 4
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1

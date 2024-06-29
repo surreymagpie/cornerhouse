@@ -1,0 +1,8 @@
+langcode: en-gb
+status: true
+dependencies: {  }
+name: Staff Roles
+vid: staff_roles
+description: 'Use staff roles to classify staff members.'
+weight: 0
+new_revision: false

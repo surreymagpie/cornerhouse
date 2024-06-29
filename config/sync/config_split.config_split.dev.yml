@@ -10,7 +10,15 @@ stackable: false
 no_patching: false
 storage: folder
 folder: ../config/dev
-module: {  }
+module:
+  default_content: 0
+  devel: 0
+  devel_generate: 0
+  migrate: 0
+  migrate_drupal: 0
+  migrate_plus: 0
+  migrate_upgrade: 0
+  phpass: 0
 theme: {  }
 complete_list: {  }
 partial_list: {  }

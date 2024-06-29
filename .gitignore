@@ -24,3 +24,6 @@ private/*
 
 # Ignore editor files
 .vscode
+
+# Ignore WIP migrations
+migrations/

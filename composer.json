@@ -24,6 +24,7 @@
         "drupal/geofield": "^1.5",
         "drupal/leaflet": "^10.2",
         "drupal/pathauto": "^1.12",
+        "drupal/token_filter": "^2.2",
         "drush/drush": "^12"
     },
     "conflict": {

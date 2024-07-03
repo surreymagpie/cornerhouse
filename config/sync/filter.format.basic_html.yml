@@ -7,6 +7,7 @@ dependencies:
   module:
     - editor
     - media
+    - token_filter
 _core:
   default_config_hash: mclCbTlJwWJORez4Y1eX2MqA0aGjSMAoJb3TaBABcK8
 name: 'Basic HTML'
@@ -65,3 +66,10 @@ filters:
       allowed_media_types:
         image: image
         remote_video: remote_video
+  token_filter:
+    id: token_filter
+    provider: token_filter
+    status: true
+    weight: 0
+    settings:
+      replace_empty: false

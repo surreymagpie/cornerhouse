@@ -5,3 +5,4 @@ recipes:
   - staff_roles
   - treatment_group
   - blocks
+  - location_block

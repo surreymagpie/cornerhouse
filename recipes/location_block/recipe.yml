@@ -1,0 +1,12 @@
+name: 'Map block'
+description: 'Provides "Map block" custom block type and related configuration. A basic block contains a title and a body.'
+type: 'Block type'
+install:
+  - block_content
+  - views
+config:
+  import:
+    block_content:
+      - field.storage.block_content.field_coordinates
+    olivero:
+      - block.block.olivero_location

@@ -1,0 +1,11 @@
+uuid: f478f011-05f8-4cac-93af-2b49ca1e2246
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ZMo7Le5ekegeE6QjhXmDEVxqMsibgh4OhMNvw-KMjdY
+name: 'Staff Roles'
+vid: staff_roles
+description: 'Use staff roles to classify staff members.'
+weight: 0
+new_revision: false

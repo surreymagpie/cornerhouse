@@ -5,7 +5,9 @@ dependencies:
   config:
     - node.type.article
     - node.type.page
+    - taxonomy.vocabulary.staff_roles
     - taxonomy.vocabulary.tags
+    - taxonomy.vocabulary.treatment_group
   module:
     - contextual
     - eu_cookie_compliance
@@ -30,17 +32,23 @@ permissions:
   - 'administer url aliases'
   - 'create article content'
   - 'create page content'
+  - 'create terms in staff_roles'
   - 'create terms in tags'
+  - 'create terms in treatment_group'
   - 'create url aliases'
   - 'delete article revisions'
   - 'delete own article content'
   - 'delete own files'
   - 'delete own page content'
   - 'delete page revisions'
+  - 'delete terms in staff_roles'
+  - 'delete terms in treatment_group'
   - 'display eu cookie compliance popup'
   - 'edit own article content'
   - 'edit own page content'
+  - 'edit terms in staff_roles'
   - 'edit terms in tags'
+  - 'edit terms in treatment_group'
   - 'revert all revisions'
   - 'view all revisions'
   - 'view own unpublished content'

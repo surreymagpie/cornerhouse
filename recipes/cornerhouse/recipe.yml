@@ -4,3 +4,4 @@ description: Main recipe
 recipes:
   - staff_roles
   - treatment_group
+  - blocks

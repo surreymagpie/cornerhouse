@@ -1,0 +1,8 @@
+{
+    "name": "surreymagpie/cornerhouse-blocks",
+    "description": "Creates custom blocks",
+    "licence": "GPL-2.0-or-later",
+    "require": {
+        "drupal/token_filter": "^2.2"
+    }
+}

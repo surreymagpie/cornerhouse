@@ -1,0 +1,25 @@
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e3284139-9b76-4f74-b7c5-4e8ca2b9be9c'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: address
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:e3284139-9b76-4f74-b7c5-4e8ca2b9be9c'
+settings:
+  id: 'block_content:e3284139-9b76-4f74-b7c5-4e8ca2b9be9c'
+  label: 'Practice address'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
+

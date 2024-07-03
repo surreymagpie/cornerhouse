@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: e3284139-9b76-4f74-b7c5-4e8ca2b9be9c
+  bundle: basic
+  default_langcode: en-gb
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Practice address'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<p>2 School Road<br>Ashford<br>Middlesex<br>TW15 2BW<br>United Kingdom</p><p>Tel.: 01784 253140</p>'
+      format: basic_html
+      summary: ''

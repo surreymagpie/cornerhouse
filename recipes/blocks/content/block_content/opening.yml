@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: c3575292-15c9-4529-a7c4-27285b8bf902
+  bundle: basic
+  default_langcode: en-gb
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Opening times'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<table class="opening-times"><thead><tr><th class="day">Day</th><th class="time">Morning</th><th class="time">Afternoon</th></tr></thead><tbody><tr><td class="day">Monday</td><td class="time">0830 - 1300</td><td class="time">1400 - 1700</td></tr><tr><td class="day">Tuesday</td><td class="time">0830 - 1300</td><td class="time">1400 - 1700</td></tr><tr><td class="day">Wednesday</td><td class="time">0830 - 1300</td><td class="time">1400 - 1700</td></tr><tr><td class="day">Thursday</td><td class="time">0830 - 1300</td><td class="time">1400 - 1700</td></tr><tr><td class="day">Friday</td><td class="time">0830 - 1300</td><td class="time">1400 - 1700</td></tr><tr><td class="day">Saturday</td><td class="time" colspan="2">By appointment only</td></tr></tbody></table>'
+      format: full_html
+      summary: ''

@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: cae66ccd-00c8-4a1c-9017-0cb2eb809e25
+  bundle: basic
+  default_langcode: en-gb
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: Colophon
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<p>© [current-date:custom:Y] [site:name]</p>'
+      format: basic_html
+      summary: ''

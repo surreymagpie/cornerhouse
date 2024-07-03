@@ -1,0 +1,47 @@
+name: blocks
+type: Content
+description: Creates custom blocks
+
+install:
+  - block
+  - block_content
+  - token_filter
+
+config:
+  import:
+    token_filter: '*'
+    block:
+      - block.address
+      - block.colophon
+      - block.openingtimes
+
+# In Drupal 11+, it will be possible to programmatically place the
+# blocks into the default theme.
+  # actions:
+  #   block.block.address:
+  #     place_block:
+  #       id: address
+  #       theme: default
+  #       regions:
+            # - footer
+            # - content
+  #       weight: -10
+  #       visibility: {  }
+  #   block.block.colophon:
+  #     place_block:
+  #       id: colophon
+  #       theme: default
+  #       regions:
+            # - footer
+            # - content
+  #       weight: -9
+  #       visibility: {  }
+  #   block.block.openingtimes:
+  #     place_block:
+  #       id: openingtimes
+  #       theme: default
+  #       regions:
+            # - footer
+            # - content
+  #       weight: -8
+  #       visibility: {  }

@@ -6,3 +6,4 @@ recipes:
   - treatment_group
   - blocks
   - location_block
+  - users

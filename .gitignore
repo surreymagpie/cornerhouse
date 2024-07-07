@@ -27,3 +27,7 @@ private/*
 
 # Ignore WIP migrations
 migrations/
+
+# Prevent leaking user emails
+recipes/users/content/user/*
+!recipes/users/content/user/.gitkeep

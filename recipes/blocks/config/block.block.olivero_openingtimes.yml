@@ -1,0 +1,25 @@
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c3575292-15c9-4529-a7c4-27285b8bf902'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_openingtimes
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:c3575292-15c9-4529-a7c4-27285b8bf902'
+settings:
+  id: 'block_content:c3575292-15c9-4529-a7c4-27285b8bf902'
+  label: 'Opening times'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
+

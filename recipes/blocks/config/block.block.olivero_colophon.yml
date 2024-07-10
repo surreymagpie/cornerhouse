@@ -1,0 +1,25 @@
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cae66ccd-00c8-4a1c-9017-0cb2eb809e25'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_colophon
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:cae66ccd-00c8-4a1c-9017-0cb2eb809e25'
+settings:
+  id: 'block_content:cae66ccd-00c8-4a1c-9017-0cb2eb809e25'
+  label: Colophon
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
+

@@ -1,0 +1,31 @@
+_meta:
+  version: "1.0"
+  entity_type: media
+  uuid: 0679385b-9841-478f-a4e8-909df665ba13
+  bundle: image
+  default_langcode: en-gb
+  depends:
+    e1754c6b-148f-449c-9304-9950963c04c7: file
+default:
+  revision_user:
+    - target_id: 1
+  status:
+    - value: true
+  uid:
+    - target_id: 1
+  name:
+    - value: karan.jpg
+  created:
+    - value: 1720819698
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: en-gb
+      pathauto: 0
+  field_media_image:
+    - entity: e1754c6b-148f-449c-9304-9950963c04c7
+      alt: "Karanpreet Malhi"
+      title: ""
+      width: 837
+      height: 1022

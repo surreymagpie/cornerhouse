@@ -1,0 +1,5 @@
+
+name: media
+description: 'Adds images / files to media library'
+install:
+  - media_library

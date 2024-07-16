@@ -1,0 +1,31 @@
+_meta:
+  version: "1.0"
+  entity_type: media
+  uuid: c15b4431-8230-4fa3-bed3-cae71da6687d
+  bundle: image
+  default_langcode: en-gb
+  depends:
+    fb5a3d70-66ff-4c18-8ca1-acda030b1a4e: file
+default:
+  revision_user:
+    - target_id: 1
+  status:
+    - value: true
+  uid:
+    - target_id: 1
+  name:
+    - value: khizer.jpg
+  created:
+    - value: 1720819427
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: en-gb
+      pathauto: 0
+  field_media_image:
+    - entity: fb5a3d70-66ff-4c18-8ca1-acda030b1a4e
+      alt: "Khizer Hanif"
+      title: ""
+      width: 1080
+      height: 1440

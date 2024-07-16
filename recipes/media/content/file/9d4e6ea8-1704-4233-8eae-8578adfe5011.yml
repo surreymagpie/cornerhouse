@@ -1,0 +1,20 @@
+_meta:
+  version: "1.0"
+  entity_type: file
+  uuid: 9d4e6ea8-1704-4233-8eae-8578adfe5011
+  default_langcode: en-gb
+default:
+  uid:
+    - target_id: 1
+  filename:
+    - value: hollie.jpg
+  uri:
+    - value: "public://2024-07/hollie.jpg"
+  filemime:
+    - value: image/jpeg
+  filesize:
+    - value: 1546506
+  status:
+    - value: true
+  created:
+    - value: 1720813256

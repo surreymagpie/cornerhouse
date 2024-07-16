@@ -1,0 +1,29 @@
+_meta:
+  version: "1.0"
+  entity_type: media
+  uuid: 4eb8af9a-cf1e-4b9b-a080-07a2b0c3d785
+  bundle: image
+  default_langcode: en-gb
+  depends:
+    9d4e6ea8-1704-4233-8eae-8578adfe5011: file
+default:
+  status:
+    - value: true
+  uid:
+    - target_id: 1
+  name:
+    - value: hollie.jpg
+  created:
+    - value: 1720813256
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: en-gb
+      pathauto: 0
+  field_media_image:
+    - entity: 9d4e6ea8-1704-4233-8eae-8578adfe5011
+      alt: "Hollie Martin"
+      title: "Hollie Martin"
+      width: 2731
+      height: 3509

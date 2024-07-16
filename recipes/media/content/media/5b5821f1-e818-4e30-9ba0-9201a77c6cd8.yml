@@ -1,0 +1,31 @@
+_meta:
+  version: "1.0"
+  entity_type: media
+  uuid: 5b5821f1-e818-4e30-9ba0-9201a77c6cd8
+  bundle: image
+  default_langcode: en-gb
+  depends:
+    fed7467e-52b0-4659-8959-619adc933155: file
+default:
+  revision_user:
+    - target_id: 1
+  status:
+    - value: true
+  uid:
+    - target_id: 1
+  name:
+    - value: rob.jpg
+  created:
+    - value: 1720954181
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: en-gb
+      pathauto: 0
+  field_media_image:
+    - entity: fed7467e-52b0-4659-8959-619adc933155
+      alt: "Robert Curtis"
+      title: ""
+      width: 892
+      height: 1338

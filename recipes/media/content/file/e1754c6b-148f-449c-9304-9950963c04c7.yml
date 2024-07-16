@@ -1,0 +1,20 @@
+_meta:
+  version: "1.0"
+  entity_type: file
+  uuid: e1754c6b-148f-449c-9304-9950963c04c7
+  default_langcode: en-gb
+default:
+  uid:
+    - target_id: 1
+  filename:
+    - value: karan.jpg
+  uri:
+    - value: "public://2024-07/karan.jpg"
+  filemime:
+    - value: image/jpeg
+  filesize:
+    - value: 137688
+  status:
+    - value: true
+  created:
+    - value: 1720819443

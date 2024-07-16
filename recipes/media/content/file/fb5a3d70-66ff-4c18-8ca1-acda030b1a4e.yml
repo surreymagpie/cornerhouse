@@ -1,0 +1,20 @@
+_meta:
+  version: "1.0"
+  entity_type: file
+  uuid: fb5a3d70-66ff-4c18-8ca1-acda030b1a4e
+  default_langcode: en-gb
+default:
+  uid:
+    - target_id: 1
+  filename:
+    - value: khizer.jpg
+  uri:
+    - value: "public://2024-07/khizer.jpg"
+  filemime:
+    - value: image/jpeg
+  filesize:
+    - value: 137688
+  status:
+    - value: true
+  created:
+    - value: 1720819443

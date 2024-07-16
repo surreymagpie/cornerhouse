@@ -1,0 +1,31 @@
+_meta:
+  version: "1.0"
+  entity_type: media
+  uuid: 8601c872-8cca-45e2-8ccd-4239f810fec5
+  bundle: image
+  default_langcode: en-gb
+  depends:
+    321fbc75-4168-473a-a3a9-e6ef93816493: file
+default:
+  revision_user:
+    - target_id: 1
+  status:
+    - value: true
+  uid:
+    - target_id: 1
+  name:
+    - value: practice-building.jpg
+  created:
+    - value: 1720957943
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: en-gb
+      pathauto: 0
+  field_media_image:
+    - entity: 321fbc75-4168-473a-a3a9-e6ef93816493
+      alt: "The practice building"
+      title: ""
+      width: 3264
+      height: 1840

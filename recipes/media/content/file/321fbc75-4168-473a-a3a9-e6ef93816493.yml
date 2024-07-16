@@ -1,0 +1,20 @@
+_meta:
+  version: "1.0"
+  entity_type: file
+  uuid: 321fbc75-4168-473a-a3a9-e6ef93816493
+  default_langcode: en-gb
+default:
+  uid:
+    - target_id: 1
+  filename:
+    - value: practice-building.jpg
+  uri:
+    - value: "public://2024-07/practice-building.jpg"
+  filemime:
+    - value: image/jpeg
+  filesize:
+    - value: 1775157
+  status:
+    - value: true
+  created:
+    - value: 1720958594

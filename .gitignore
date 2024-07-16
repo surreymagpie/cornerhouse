@@ -31,3 +31,11 @@ migrations/
 # Prevent leaking user emails
 recipes/users/content/user/*
 !recipes/users/content/user/.gitkeep
+
+# Ignore large image files in recipes
+# These can be copied over to production
+# using `scp` or `rsync` before applying recipes
+recipes/**/*.jpg
+recipes/**/*.jpeg
+recipes/**/*.png
+recipes/**/*.webp

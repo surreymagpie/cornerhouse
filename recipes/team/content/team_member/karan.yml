@@ -1,0 +1,41 @@
+_meta:
+  version: "1.0"
+  entity_type: node
+  uuid: 8164951b-a768-463d-8e9f-7440648ae91e
+  bundle: team_member
+  default_langcode: en-gb
+  depends:
+    0679385b-9841-478f-a4e8-909df665ba13: media
+    c7a610f2-a256-467b-8087-9b2f63637f56: taxonomy_term
+default:
+  revision_uid:
+    - target_id: 1
+  status:
+    - value: true
+  uid:
+    - target_id: 1
+  title:
+    - value: "Karanpreet Malhi"
+  created:
+    - value: 1720538010
+  promote:
+    - value: false
+  sticky:
+    - value: false
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: en-gb
+      pathauto: 0
+  field_bio:
+    - value: "<p>Karanpreet joined us ?.</p>"
+      format: basic_html
+  field_gdc_reg_no:
+    - value: 303174
+  field_profile:
+    - entity: 0679385b-9841-478f-a4e8-909df665ba13
+  field_qualifications:
+    - value: null
+  field_role:
+    - entity: c7a610f2-a256-467b-8087-9b2f63637f56

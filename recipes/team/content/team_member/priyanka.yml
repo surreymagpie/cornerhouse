@@ -1,0 +1,41 @@
+_meta:
+  version: "1.0"
+  entity_type: node
+  uuid: 10932268-0a9d-471d-8ce0-6d56f8f25745
+  bundle: team_member
+  default_langcode: en-gb
+  depends:
+    90ec3b66-5bde-472c-9c39-f45aa677d2ba: media
+    5935e6db-490d-4beb-bd89-d67ed51dcabf: taxonomy_term
+default:
+  revision_uid:
+    - target_id: 0
+  status:
+    - value: true
+  uid:
+    - target_id: 0
+  title:
+    - value: "Priyanka Colaco"
+  created:
+    - value: 1706704424
+  promote:
+    - value: false
+  sticky:
+    - value: false
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: und
+      pathauto: 1
+  field_bio:
+    - value: ""
+      format: basic_html
+  field_gdc_reg_no:
+    - value: 272365
+  field_profile:
+    - entity: 90ec3b66-5bde-472c-9c39-f45aa677d2ba
+  field_qualifications:
+    - value: "B.D.S. (Maharashtra), NEBDN"
+  field_role:
+    - entity: 5935e6db-490d-4beb-bd89-d67ed51dcabf

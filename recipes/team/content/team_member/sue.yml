@@ -1,0 +1,41 @@
+_meta:
+  version: "1.0"
+  entity_type: node
+  uuid: de3f57d0-f050-4ed5-81fb-6ea4d637732e
+  bundle: team_member
+  default_langcode: en-gb
+  depends:
+    90ec3b66-5bde-472c-9c39-f45aa677d2ba: media
+    54a032cd-bdd9-4869-a078-d5f1b7ec4c91: taxonomy_term
+default:
+  revision_uid:
+    - target_id: 0
+  status:
+    - value: false
+  uid:
+    - target_id: 0
+  title:
+    - value: "Susan Eves"
+  created:
+    - value: 1370084474
+  promote:
+    - value: false
+  sticky:
+    - value: false
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: und
+      pathauto: 1
+  field_bio:
+    - value: "<p>Sue has been working as a dental nurse for 23 years and has been at this practice since 1997. She enjoys working helping people and her experience means that she is used to dealing with every type of patient, including anxious ones.</p><p>Outside work, she enjoys time with her family and friends. She is a keen rugby fan, supporting London Wasps, and as former hurdler she is also keen on athletics.</p>"
+      format: "basic_html"
+  field_gdc_reg_no:
+    - 147478
+  field_profile:
+    - entity: 90ec3b66-5bde-472c-9c39-f45aa677d2ba
+  field_qualifications:
+    - value: "Verified Competency in Dental Nursing"
+  field_role:
+    - entity: 54a032cd-bdd9-4869-a078-d5f1b7ec4c91

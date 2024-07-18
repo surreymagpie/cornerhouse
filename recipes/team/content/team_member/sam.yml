@@ -1,0 +1,41 @@
+_meta:
+  version: "1.0"
+  entity_type: node
+  uuid: 8119a189-9df7-4709-bac6-1a3107552bef
+  bundle: team_member
+  default_langcode: en-gb
+  depends:
+    90ec3b66-5bde-472c-9c39-f45aa677d2ba: media
+    b638794b-b974-4e9d-a362-c13e43bdddeb: taxonomy_term
+default:
+  revision_uid:
+    - target_id: 0
+  status:
+    - value: true
+  uid:
+    - target_id: 0
+  title:
+    - value: "Samantha Want"
+  created:
+    - value: 1706699187
+  promote:
+    - value: false
+  sticky:
+    - value: false
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: en-gb
+      pathauto: 1
+  field_bio:
+    - value: "<p>Sam joined us in 2016 after working at an accountancy firm in London for 21 years. Sam job shares her receptionish role with Pauline, working 3-4 days a week.</p><p>Sam enjoys spending time with her family, going to the gym and crafting.</p>"
+      format: basic_html
+  field_gdc_reg_no:
+    - value: null
+  field_profile:
+    - entity: 90ec3b66-5bde-472c-9c39-f45aa677d2ba
+  field_qualifications:
+    - value: null
+  field_role:
+    - entity: b638794b-b974-4e9d-a362-c13e43bdddeb

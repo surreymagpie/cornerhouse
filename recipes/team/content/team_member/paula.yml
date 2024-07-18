@@ -1,0 +1,41 @@
+_meta:
+  version: "1.0"
+  entity_type: node
+  uuid: acf16d9c-1b0c-4ed4-98f9-efbb2a52d8e6
+  bundle: team_member
+  default_langcode: und
+  depends:
+    256d5339-1ed6-48c5-9bff-5f48d46ed6ae: media
+    54a032cd-bdd9-4869-a078-d5f1b7ec4c91: taxonomy_term
+default:
+  revision_uid:
+    - target_id: 0
+  status:
+    - value: true
+  uid:
+    - target_id: 0
+  title:
+    - value: "Paula Smith"
+  created:
+    - value: 1706690329
+  promote:
+    - value: false
+  sticky:
+    - value: false
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: und
+      pathauto: 1
+  field_bio:
+    - value: "<p>Paula joined the practice in July 2021 with over 30 years experience in dentistry.</p><p>Paula enjoys traveling and keeping fit.</p>"
+      format: basic_html
+  field_gdc_reg_no:
+    - value: 125536
+  field_profile:
+    - entity: 256d5339-1ed6-48c5-9bff-5f48d46ed6ae
+  field_qualifications:
+    - value: "NEBDN"
+  field_role:
+    - entity: 54a032cd-bdd9-4869-a078-d5f1b7ec4c91

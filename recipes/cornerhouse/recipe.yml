@@ -1,5 +1,5 @@
 name: cornerhouse
-type: 'Site'
+type: "Site"
 description: Main recipe
 recipes:
   - staff_roles
@@ -8,3 +8,4 @@ recipes:
   - location_block
   - media
   - users
+  - team

@@ -1,0 +1,41 @@
+_meta:
+  version: "1.0"
+  entity_type: node
+  uuid: 3789ee1b-661a-4461-8ff2-00008bbb5132
+  bundle: team_member
+  default_langcode: en-gb
+  depends:
+    5b5821f1-e818-4e30-9ba0-9201a77c6cd8: media
+    aa56140c-3b3e-4832-89d9-b278928444d8: taxonomy_term
+default:
+  revision_uid:
+    - target_id: 1
+  status:
+    - value: false
+  uid:
+    - target_id: 1
+  title:
+    - value: "Rob Curtis"
+  created:
+    - value: 1720380000
+  promote:
+    - value: false
+  sticky:
+    - value: false
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: en-gb
+      pathauto: 0
+  field_bio:
+    - value: "<p>Robert Curtis qualified from King's College Dental School in London in 1992.</p><p>After five years working in Gillingham and Minstr-on-Sea in Kent, he moved to Shepperton and began working at practices in Hanworth and High Wycombe.</p><p>When the practice in Ashford became available in 1999, it seemed an appropriate moment to take on an ownership role.</p><p>While he performs all routine types of dental treatment, he has a special interest in dental implants and crown and bridgework.</p><p>Away from the surgery, he has found a interest for running in recent years and now runs for Ranelagh Harriers running club in Richmond, regularly taking part in races from 5k up to marathon distance. He is also Scout leader for 1st Charlton Air &amp; Sea Scouts.</p>"
+      format: basic_html
+  field_gdc_reg_no:
+    - value: 68427
+  field_profile:
+    - entity: 5b5821f1-e818-4e30-9ba0-9201a77c6cd8
+  field_qualifications:
+    - value: "B.D.S. (London)"
+  field_role:
+    - entity: aa56140c-3b3e-4832-89d9-b278928444d8

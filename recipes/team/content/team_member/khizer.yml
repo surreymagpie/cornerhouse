@@ -1,0 +1,41 @@
+_meta:
+  version: "1.0"
+  entity_type: node
+  uuid: 23c0aa25-675b-49d0-bd30-f7d307d8e3b7
+  bundle: team_member
+  default_langcode: en-gb
+  depends:
+    c15b4431-8230-4fa3-bed3-cae71da6687d: media
+    aa56140c-3b3e-4832-89d9-b278928444d8: taxonomy_term
+default:
+  revision_uid:
+    - target_id: 1
+  status:
+    - value: true
+  uid:
+    - target_id: 1
+  title:
+    - value: "Khizer Hanif"
+  created:
+    - value: 1720538010
+  promote:
+    - value: false
+  sticky:
+    - value: false
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: en-gb
+      pathauto: 0
+  field_bio:
+    - value: "<p>Khizer joined the practice in April 2023 after Robert Curtis retired.</p>"
+      format: basic_html
+  field_gdc_reg_no:
+    - value: 288447
+  field_profile:
+    - entity: c15b4431-8230-4fa3-bed3-cae71da6687d
+  field_qualifications:
+    - value: "DMD (CLU)"
+  field_role:
+    - entity: aa56140c-3b3e-4832-89d9-b278928444d8

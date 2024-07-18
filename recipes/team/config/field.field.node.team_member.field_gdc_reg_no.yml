@@ -1,0 +1,23 @@
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gdc_reg_no
+    - node.type.team_member
+id: node.team_member.field_gdc_reg_no
+field_name: field_gdc_reg_no
+entity_type: node
+bundle: team_member
+label: 'GDC Registration No.'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
+

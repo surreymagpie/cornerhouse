@@ -1,0 +1,41 @@
+_meta:
+  version: "1.0"
+  entity_type: node
+  uuid: 8700ac4f-9904-4226-b504-6758c186adf0
+  bundle: team_member
+  default_langcode: en-gb
+  depends:
+    4eb8af9a-cf1e-4b9b-a080-07a2b0c3d785: media
+    54a032cd-bdd9-4869-a078-d5f1b7ec4c91: taxonomy_term
+default:
+  revision_uid:
+    - target_id: 0
+  status:
+    - value: true
+  uid:
+    - target_id: 0
+  title:
+    - value: "Hollie Martin"
+  created:
+    - value: 1706692153
+  promote:
+    - value: false
+  sticky:
+    - value: false
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: und
+      pathauto: 1
+  field_bio:
+    - value: ''
+      format: basic_html
+  field_gdc_reg_no:
+    - 316931
+  field_profile:
+    - entity: 4eb8af9a-cf1e-4b9b-a080-07a2b0c3d785
+  field_qualifications:
+    - "NEBDN"
+  field_role:
+    - entity: 54a032cd-bdd9-4869-a078-d5f1b7ec4c91

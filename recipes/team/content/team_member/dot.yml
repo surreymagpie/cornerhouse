@@ -1,0 +1,41 @@
+_meta:
+  version: "1.0"
+  entity_type: node
+  uuid: 77177cf6-a92e-4e51-a9c0-b6be69c578cb
+  bundle: team_member
+  default_langcode: en-gb
+  depends:
+    90ec3b66-5bde-472c-9c39-f45aa677d2ba: media
+    b638794b-b974-4e9d-a362-c13e43bdddeb: taxonomy_term
+default:
+  revision_uid:
+    - target_id: 1
+  status:
+    - value: false
+  uid:
+    - target_id: 0
+  title:
+    - value: "Dorothy Flynn"
+  created:
+    - value: 1370092822
+  promote:
+    - value: false
+  sticky:
+    - value: false
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: und
+      pathauto: 1
+  field_bio:
+    - value: ""
+      format: basic_html
+  field_gdc_reg_no:
+    - null
+  field_profile:
+    - entity: 90ec3b66-5bde-472c-9c39-f45aa677d2ba
+  field_qualifications:
+    - null
+  field_role:
+    - entity: b638794b-b974-4e9d-a362-c13e43bdddeb

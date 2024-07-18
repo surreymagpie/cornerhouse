@@ -1,0 +1,41 @@
+_meta:
+  version: "1.0"
+  entity_type: node
+  uuid: 59f54f37-23f0-44d9-a9e4-e8c976b47b3c
+  bundle: team_member
+  default_langcode: en-gb
+  depends:
+    90ec3b66-5bde-472c-9c39-f45aa677d2ba: media
+    54a032cd-bdd9-4869-a078-d5f1b7ec4c91: taxonomy_term
+default:
+  revision_uid:
+    - target_id: 1
+  status:
+    - value: false
+  uid:
+    - target_id: 0
+  title:
+    - value: "Abigail Lindsay"
+  created:
+    - value: 1370092559
+  promote:
+    - value: false
+  sticky:
+    - value: false
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: und
+      pathauto: 1
+  field_bio:
+    - value: "<p>Abigail started working with us in April 2012.</p><p>She started off as front-of-house receptionist until July 2012 when the opportunity came up for her to become a trainee dental nurse.</p><p>Abigail thoroughly enjoys her new job role and is working towards becoming a qualified dental nurse.</p><p>In her spare time she enjoys reading and spending time with her family.</p>"
+      format: basic_html
+  field_gdc_reg_no:
+    - null
+  field_profile:
+    - entity: 90ec3b66-5bde-472c-9c39-f45aa677d2ba
+  field_qualifications:
+    - null
+  field_role:
+    - entity: 54a032cd-bdd9-4869-a078-d5f1b7ec4c91

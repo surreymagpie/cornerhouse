@@ -1,0 +1,41 @@
+_meta:
+  version: "1.0"
+  entity_type: node
+  uuid: 7b8aa508-5525-4133-87a4-23ee0f2a54ef
+  bundle: team_member
+  default_langcode: en-gb
+  depends:
+    90ec3b66-5bde-472c-9c39-f45aa677d2ba: media
+    b638794b-b974-4e9d-a362-c13e43bdddeb: taxonomy_term
+default:
+  revision_uid:
+    - target_id: 0
+  status:
+    - value: true
+  uid:
+    - target_id: 0
+  title:
+    - value: "Pauline Muldowney"
+  created:
+    - value: 1706692692
+  promote:
+    - value: false
+  sticky:
+    - value: false
+  revision_translation_affected:
+    - value: true
+  path:
+    - alias: ""
+      langcode: und
+      pathauto: 1
+  field_bio:
+    - value: "<p>Pauline's bio.</p>"
+      format: basic_html
+  field_gdc_reg_no:
+    - value: null
+  field_profile:
+    - entity: 90ec3b66-5bde-472c-9c39-f45aa677d2ba
+  field_qualifications:
+    - value: null
+  field_role:
+    - entity: b638794b-b974-4e9d-a362-c13e43bdddeb

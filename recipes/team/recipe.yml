@@ -1,0 +1,9 @@
+name: team
+description: "Creates team members."
+type: "Content"
+install:
+  - node
+  - media_library
+recipes:
+  - media
+  - staff_roles

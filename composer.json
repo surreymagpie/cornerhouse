@@ -17,13 +17,16 @@
     "require": {
         "composer/installers": "^2.0",
         "drupal/admin_toolbar": "^3.4",
-        "drupal/core-composer-scaffold": "^10.3",
-        "drupal/core-recommended": "^10.3",
+        "drupal/config_split": "^2.0",
+        "drupal/core-composer-scaffold": "^11",
+        "drupal/core-project-message": "^11",
+        "drupal/core-recommended": "^11",
         "drupal/eu_cookie_compliance": "^1.24",
         "drupal/geofield": "^1.5",
         "drupal/leaflet": "^10.2",
         "drupal/pathauto": "^1.12",
-        "drush/drush": "^12"
+        "drush/drush": "^13",
+        "drupal/token_filter": "^2.2"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -33,10 +36,12 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
-            "drupal/core-composer-scaffold": true,
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "tbachert/spi": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true
         },
         "sort-packages": true
     },
@@ -95,6 +100,13 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
-        }
+        },
+	"require-dev": {
+		"drupal/core-dev": "^11",
+		"drupal/default_content": "^2.0@alpha",
+		"drupal/devel": "^5.4",
+		"drupal/migrate_plus": "^6.0",
+		"drupal/migrate_upgrade": "^4.0"
+	}
     }
 }
